@@ -76,8 +76,14 @@ json-server db.json
 
 ```
 *** Durante o desenvolvimento, a API do Randomuser estava instável e não trazia os dados da requisição.
-Por isso que configurei o json server.
+Por isso que configurei o json server e coloquei http://localhost:3000/results no lugar da API do Randomuser.
 ```
+
+## Resultado final
+
+Como ficou:
+
+<img src="./desafio-pesquisa.gif">
 
 
 
