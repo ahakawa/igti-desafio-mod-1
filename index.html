@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Pesquisa de usuários</title>
+  </head>
+  <body>
+    <div class="container divContainer">
+      <h1>Pesquisa de usuários</h1>
+      <div id="spinner" class="row spinnerDiv">
+        <div class="col">
+          <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-green">
+              <div class="circle-clipper left">
+                <div class="circle"></div>
+              </div>
+              <div class="gap-patch">
+                <div class="circle"></div>
+              </div>
+              <div class="circle-clipper right">
+                <div class="circle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="pWait">Aguarde...</span>
+      </div>
+      <div class="row">
+        <p class="pInput">Busca:</p>
+        <div class="col s10">
+          <input type="text" class="inputSearch" />
+        </div>
+        <div class="col s2">
+            <button class="waves-effect waves-light btn-large" id="buttonSearch" disabled>
+                BUSCAR
+            </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s6">
+          <div id="userFound"><h2>Nenhum usuário filtrado!</h2></div>
+        </div>
+        <div class="col s6">
+          <div id="statistics"><h2>Nada a ser exibido!</h2></div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

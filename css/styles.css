@@ -1,0 +1,48 @@
+
+h1 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.divContainer {
+    width: 100%;
+}
+
+.spinnerDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pWait {
+    font-size: 22px;
+}
+
+.pInput {
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+    padding-left: 25px;;
+}
+
+#userFound {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border: 2px ridge rgb(235, 228, 228);
+    margin: 10px;
+    padding-left: 30px;
+}
+
+#statistics {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border: 2px ridge rgb(235, 228, 228);
+    margin: 10px;
+    padding-left: 30px;
+}
+#buttonSearch {
+    margin-top: 20px;
+    margin-left: 50px;
+}
